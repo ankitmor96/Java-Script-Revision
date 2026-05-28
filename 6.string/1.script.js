@@ -51,3 +51,29 @@ console.log(name.search("a"));
 // slice :-
 
 console.log(name.slice(2,6));
+
+// split :-
+
+console.log(name.split(""));
+
+// substring :-
+
+console.log(name.substring(2,5));
+
+// toupperCase :-
+
+console.log(name.toUpperCase());
+
+// toLowerCase :-
+
+console.log(name.toLowerCase());
+
+// trim :-
+
+let names = "      ankit       ";
+
+console.log(names.trimStart());
+
+console.log(names.trimEnd());
+
+console.log(names.trim());
